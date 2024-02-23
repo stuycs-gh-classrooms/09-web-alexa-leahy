@@ -1,5 +1,5 @@
 h1 {
-  color: blue;
+  color: green;
 }
 
 p {
@@ -14,8 +14,74 @@ img {
 }
 
 
-navbar {
-  list-style-type: none;
+/* nav {
+
   margin: 0;
   padding: 0;
+  color: white;
+  overflow: hidden;
+
+
+  padding: 14px 16px;
+  text-decoration: none;
+
+    margin: 0;
+    padding: 0;
+
+    background-color:  green;
+}
+
+.navbar {
+  display: inline;
+  text-decoration: none;
+  text-size: 50px;
+}
+
+.navtext{
+    text-decoraxtion: none;
+    font-size: 50px;
+}
+
+.current {
+  font-size: 50px;
+} */
+
+
+nav {
+  border-bottom: 1px solid black;
+  text-decoration: none;
+}
+
+.navs ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-decoration: none;
+  color: red;
+}
+
+.navs {
+  background-color: #d53626 ;
+  padding: 10px;
+  text-align: center;
+}
+
+.navs a:hover{
+  background-color: rgb(242,185,95);
+  padding: 30px;
+}
+
+.navs li {
+  color: blue;
+}
+
+.navs a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  display: inline-block;
+  text-decoration: bold;
+/* background-color: blue; */
+  color: white;
 }
