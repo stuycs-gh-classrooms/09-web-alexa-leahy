@@ -50,6 +50,8 @@ img {
 nav {
   border-bottom: 1px solid black;
   text-decoration: none;
+  border: 0px;
+  length: 100%;
 }
 
 .navs ul {
