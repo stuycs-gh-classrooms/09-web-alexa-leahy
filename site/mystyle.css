@@ -1,50 +1,20 @@
-h1 {
-  color: green;
+.title {
+  color: rgb(159,295,84);
+  text-align: center;
+  border: 4px solid rgb(178 140 74);
+  background-color: rgb(178 140 74);
+  padding: 20px;
 }
 
 p {
-  color: pink;
+  color: black;
 }
 
-
-
-img {
-  width: 20px;
-  height: 20px;
+body {
+  background-color:  rgb(242,225,84);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
 }
-
-
-/* nav {
-
-  margin: 0;
-  padding: 0;
-  color: white;
-  overflow: hidden;
-
-
-  padding: 14px 16px;
-  text-decoration: none;
-
-    margin: 0;
-    padding: 0;
-
-    background-color:  green;
-}
-
-.navbar {
-  display: inline;
-  text-decoration: none;
-  text-size: 50px;
-}
-
-.navtext{
-    text-decoraxtion: none;
-    font-size: 50px;
-}
-
-.current {
-  font-size: 50px;
-} */
 
 
 nav {
@@ -56,34 +26,49 @@ nav {
 
 .navs ul {
   list-style-type: none;
-  padding-left: 0;
+padding-left: 20px;
+  padding-right: 100px;
   text-decoration: none;
   color: red;
+    text-align: left;
+}
+
+ .navs a {
+  padding: 25px;
 }
 
 .navs {
-  background-color: #d53626 ;
+  background-color: green ;
   padding: 10px;
   text-align: center;
 }
 
-.navs a:hover{
-  background-color: rgb(242,185,95);
-  padding: 30px;
-}
+
 
 .navs li {
-  color: blue;
+  color: pink;
+    text-align: left;
+
 }
 
 .navs a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
+    text-align: left;
+}
+
+.navs a:hover{
+  background-color: #d53626;
 }
 
 .navbar {
   display: inline-block;
   text-decoration: bold;
-/* background-color: blue; */
+  text-align: left;
   color: white;
+}
+
+.headimg {
+  width: 100%;
+  height: 30%;
 }
