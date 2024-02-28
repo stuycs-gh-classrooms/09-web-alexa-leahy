@@ -92,3 +92,17 @@ padding-left: 20px;
   text-align: center;
   padding: 20px;
 }
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.bio {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
