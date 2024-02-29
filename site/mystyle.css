@@ -125,7 +125,8 @@ padding-left: 20px;
   margin-right: 40px;
 }
 
-table, th, td {
+/* table */
+table, th, tr {
   border: 1px solid;
 }
 
@@ -151,4 +152,10 @@ th {
 .picture {
   width: 30%;
   height: 30%;
+}
+
+/* crops page */
+
+.croptable {
+  margin-left: 35%;
 }
