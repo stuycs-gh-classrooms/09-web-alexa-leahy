@@ -8,11 +8,74 @@
             <link rel="stylesheet" href="fractals.css" type="text/css" >
     </head>
 
-    <h1> Fractal Flair, Fun, and Flamboyance! </h1>
+    <h1> 🍉 Fruity Fractal Flair, Fun, and Flamboyance! 🍉 </h1>
 
-<div class = "set">
+
     <h2 class = "sub"> Koch Curve </h2>
-    <h3 class = "subs"> Modified </h3>
     <h3 class = "subs"> Original </h3>
+      <p class = "heh"> <----- koch_curve(t, 4, 20)     </p>
+        <img class="corresponding" src="images/kochreg.png" alt="regular koch curve">
+    <h3 class = "subs"> Modified </h3>
 
-</div>
+    <div class= "modified_curve">
+      <pre> <code>
+        def koch_curve_2(t, depth, size):
+          if depth == 0:
+          t.fd(size)
+          else:
+            for i in [[85,1.3], [190,1], [85,1], [0,1]]:
+              koch_curve_2(t, depth - 1, size // (3*(i[1])))
+              t.left(i[0])
+              
+        This modification makes the koch curve
+        have variations in the measurements for
+        length and angles.
+          </code> </pre>
+
+                </div>
+        <img class="groupy" src="images/kochmodified.png" alt="modified koch curve">
+
+
+
+  <h2 class = "sub"> Sierpinski </h2>
+  <h3 class = "subs"> Original </h3>
+  <p class = "heh"> <----- sierpinski(t, 5, 200) </p>
+    <img class="corresponding" src="images/sierpinskireg.png" alt="regular sierpinski">
+  <h3 class = "subs"> Modified </h3>
+  <pre class= "modified_curve"> <code>
+    def koch_curve_2(t, depth, size):
+      if depth == 0:
+      t.fd(size)
+      else:
+        for i in [[85,1.3], [190,1], [85,1], [0,1]]:
+          koch_curve_2(t, depth - 1, size // (3*(i[1])))
+          t.left(i[0])
+
+    This modification makes the sierpinski triangle
+    look like it was doodled with a
+    pen running out of ink as it has various shades of
+    grey and black as well as varying
+    line thicknesses.
+      </code> </pre>
+    <img class="groupy" src="images/sierpinskimodified.png" alt="modified sierpiski">
+
+  <h2 class = "sub"> Tree </h2>
+  <h3 class = "subs"> Original </h3>
+  <p class = "heh"> <----- tree(t, 4, 50, 20) </p>
+    <img class="corresponding" src="images/treereg.png" alt="regular tree">
+  <h3 class = "subs"> Modified </h3>
+  <pre class= "modified_curve"> <code>
+    def koch_curve_2(t, depth, size):
+      if depth == 0:
+      t.fd(size)
+      else:
+        for i in [[85,1.3], [190,1], [85,1], [0,1]]:
+          koch_curve_2(t, depth - 1, size // (3*(i[1])))
+          t.left(i[0])
+
+    This modification makes the tree fractal
+    branches grow shorter the more branches
+    there are. Additionally, the branches grow
+    lighter green.
+      </code> </pre>
+    <img class="groupy" src="images/treemodified.png" alt="modified tree">
